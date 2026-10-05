@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/chand/Downloads/wow-logo-preview.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WOW Logo Kit</title>
+<link href="./WOW Logo Kit_files/css2" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Jost', sans-serif;
+    background: #0A0F0C;
+    color: #F4EDE0;
+    padding: 40px 24px 60px;
+    min-height: 100vh;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 52px;
+  }
+  .header-eyebrow {
+    font-size: 9px;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    color: rgba(201,160,82,0.45);
+    margin-bottom: 8px;
+  }
+  .header-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 28px;
+    color: #F4EDE0;
+    font-weight: 400;
+  }
+
+  /* ── LOGO GRID ── */
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2px;
+    max-width: 960px;
+    margin: 0 auto 48px;
+    background: rgba(201,160,82,0.1);
+  }
+  .logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 32px 28px;
+    gap: 20px;
+    position: relative;
+  }
+
+  /* Dark green bg */
+  .card-dark   { background: #1B3D2A; }
+  /* Near black */
+  .card-black  { background: #0A0F0C; }
+  /* Warm cream */
+  .card-cream  { background: #F4EDE0; }
+  /* Pure white */
+  .card-white  { background: #FFFFFF; }
+
+  .logo-label {
+    font-size: 8px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .label-light { color: rgba(201,160,82,0.5); }
+  .label-dark  { color: rgba(27,61,42,0.45); }
+
+  /* ── INLINE SVG LOGOS ── */
+  /* Gold on dark */
+  .logo-gold   { --c: #C9A052; }
+  /* Cream on dark */
+  .logo-cream  { --c: #F4EDE0; }
+  /* Forest on cream */
+  .logo-forest { --c: #1B3D2A; }
+  /* Black on white */
+  .logo-black-v { --c: #0A0F0C; }
+
+  .wow-logo-svg {
+    width: 200px;
+    height: 200px;
+    color: var(--c);
+  }
+
+  /* ── DIVIDER ── */
+  .section-divider {
+    max-width: 960px;
+    margin: 0 auto 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: rgba(201,160,82,0.2);
+  }
+  .section-divider-text {
+    font-size: 8.5px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(201,160,82,0.4);
+    white-space: nowrap;
+  }
+
+  /* ── SIZES ── */
+  .sizes-row {
+    max-width: 960px;
+    margin: 0 auto 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,0.02);
+    border: 0.5px solid rgba(201,160,82,0.1);
+    padding: 40px 32px;
+  }
+  .size-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .size-tag {
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(201,160,82,0.4);
+  }
+
+  /* ── USAGE NOTES ── */
+  .usage-grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5px;
+    background: rgba(201,160,82,0.1);
+  }
+  .usage-card {
+    background: #111A14;
+    padding: 24px 22px;
+  }
+  .usage-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .usage-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #C9A052;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .usage-text {
+    font-size: 12px;
+    line-height: 1.7;
+    color: rgba(244,237,224,0.5);
+  }
+  .usage-do   { border-top: 2px solid #3A9B5E; }
+  .usage-dont { border-top: 2px solid #9B3A3A; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-eyebrow">Official Brand Asset · 2025</div>
+  <div class="header-title">Wide Open World — Logo Kit</div>
+</div>
+
+<!-- ── ALL VARIANTS ── -->
+<div class="logo-grid">
+
+  <!-- 1. Gold on Forest Green (Primary) -->
+  <div class="logo-card card-dark">
+    <svg class="wow-logo-svg logo-gold" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a1" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b1" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3" opacity="1"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a1" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b1" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,&#39;Times New Roman&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-light">Gold on Forest Green · Primary</div>
+  </div>
+
+  <!-- 2. Gold on Near-Black -->
+  <div class="logo-card card-black">
+    <svg class="wow-logo-svg logo-gold" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a2" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b2" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a2" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b2" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-light">Gold on Black · Dark Mode</div>
+  </div>
+
+  <!-- 3. Cream on Dark -->
+  <div class="logo-card card-dark">
+    <svg class="wow-logo-svg logo-cream" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a3" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b3" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a3" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b3" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-light">Cream on Forest Green · Warm</div>
+  </div>
+
+  <!-- 4. Forest on Cream (Light mode) -->
+  <div class="logo-card card-cream">
+    <svg class="wow-logo-svg logo-forest" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a4" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b4" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a4" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b4" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-dark">Forest on Cream · Light Mode</div>
+  </div>
+
+  <!-- 5. Black on White -->
+  <div class="logo-card card-white">
+    <svg class="wow-logo-svg logo-black-v" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a5" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b5" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a5" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b5" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-dark">Black on White · Print / Monochrome</div>
+  </div>
+
+  <!-- 6. Gold on Cream (Premium print) -->
+  <div class="logo-card card-cream">
+    <svg class="wow-logo-svg" style="--c:#A07830; color:#A07830;" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="a6" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="b6" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="currentColor" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="currentColor" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="currentColor" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="currentColor" opacity="0.95"></polygon>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="13" font-weight="500" fill="currentColor" letter-spacing="4.5">
+        <textpath href="#a6" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="&#39;Jost&#39;,sans-serif" font-size="11" font-weight="400" fill="currentColor" letter-spacing="3" dy="17">
+        <textpath href="#b6" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="currentColor" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="currentColor" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="currentColor" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,&#39;Georgia&#39;,serif" font-size="46" font-weight="700" fill="currentColor" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="logo-label label-dark">Amber on Cream · Premium Print</div>
+  </div>
+
+</div><!-- /logo-grid -->
+
+<!-- ── SIZES ── -->
+<div class="section-divider"><span class="section-divider-text">Size Variations</span></div>
+<div class="sizes-row">
+  <div class="size-item">
+    <svg width="48" height="48" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="220" cy="220" r="160" fill="none" stroke="#C9A052" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="#C9A052" stroke-width="2.4"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="54" font-weight="700" fill="#C9A052" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="size-tag">48px · Favicon</div>
+  </div>
+  <div class="size-item">
+    <svg width="80" height="80" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="220" cy="220" r="160" fill="none" stroke="#C9A052" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="#C9A052" stroke-width="2.4"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-size="54" font-weight="700" fill="#C9A052" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="size-tag">80px · Nav / App Icon</div>
+  </div>
+  <div class="size-item">
+    <svg width="140" height="140" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="sa" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="sb" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="#C9A052" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.45"></circle>
+      <polygon points="88,213 81,220 88,227 95,220" fill="#C9A052" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="#C9A052" opacity="0.95"></polygon>
+      <text font-family="Jost,sans-serif" font-size="13" font-weight="500" fill="#C9A052" letter-spacing="4.5">
+        <textpath href="#sa" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="Jost,sans-serif" font-size="11" font-weight="400" fill="#C9A052" letter-spacing="3" dy="17">
+        <textpath href="#sb" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="#C9A052" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="#C9A052" stroke-width="2.4"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,Georgia,serif" font-size="46" font-weight="700" fill="#C9A052" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="size-tag">140px · Profile / Header</div>
+  </div>
+  <div class="size-item">
+    <svg width="200" height="200" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="sc" d="M 88,220 A 132,132 0 0,1 352,220 A 132,132 0 0,1 88,220"></path>
+        <path id="sd" d="M 88,220 A 132,132 0 0,0 352,220 A 132,132 0 0,0 88,220"></path>
+      </defs>
+      <circle cx="220" cy="220" r="160" fill="none" stroke="#C9A052" stroke-width="3"></circle>
+      <circle cx="220" cy="220" r="153" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.45"></circle>
+      <circle cx="220" cy="220" r="147" fill="none" stroke="#C9A052" stroke-width="0.5" opacity="0.22"></circle>
+      <polygon points="220,57 224,64 220,71 216,64" fill="#C9A052" opacity="0.9"></polygon>
+      <polygon points="220,369 224,376 220,383 216,376" fill="#C9A052" opacity="0.9"></polygon>
+      <polygon points="88,213 81,220 88,227 95,220" fill="#C9A052" opacity="0.95"></polygon>
+      <polygon points="352,213 345,220 352,227 359,220" fill="#C9A052" opacity="0.95"></polygon>
+      <text font-family="Jost,sans-serif" font-size="13" font-weight="500" fill="#C9A052" letter-spacing="4.5">
+        <textpath href="#sc" startOffset="25%" text-anchor="middle">WIDE OPEN WORLD</textpath>
+      </text>
+      <text font-family="Jost,sans-serif" font-size="11" font-weight="400" fill="#C9A052" letter-spacing="3" dy="17">
+        <textpath href="#sd" startOffset="25%" text-anchor="middle">A GLOBAL CULTURE CLUB</textpath>
+      </text>
+      <circle cx="220" cy="220" r="116" fill="none" stroke="#C9A052" stroke-width="1.4" opacity="0.55"></circle>
+      <circle cx="220" cy="220" r="110" fill="none" stroke="#C9A052" stroke-width="0.6" opacity="0.22"></circle>
+      <circle cx="220" cy="220" r="102" fill="none" stroke="#C9A052" stroke-width="2.4"></circle>
+      <circle cx="220" cy="220" r="97" fill="none" stroke="#C9A052" stroke-width="0.6" opacity="0.24"></circle>
+      <ellipse cx="220" cy="220" rx="102" ry="26" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="52" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <ellipse cx="220" cy="220" rx="102" ry="78" fill="none" stroke="#C9A052" stroke-width="0.75" opacity="0.46"></ellipse>
+      <ellipse cx="220" cy="220" rx="26" ry="102" fill="none" stroke="#C9A052" stroke-width="1.05" opacity="0.76"></ellipse>
+      <ellipse cx="220" cy="220" rx="68" ry="102" fill="none" stroke="#C9A052" stroke-width="0.9" opacity="0.60"></ellipse>
+      <line x1="118" y1="220" x2="322" y2="220" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <line x1="220" y1="118" x2="220" y2="322" stroke="#C9A052" stroke-width="0.7" opacity="0.46"></line>
+      <text x="220" y="225" text-anchor="middle" dominant-baseline="middle" font-family="&#39;Playfair Display&#39;,Georgia,serif" font-size="46" font-weight="700" fill="#C9A052" letter-spacing="8">WOW</text>
+    </svg>
+    <div class="size-tag">200px · Full Logo</div>
+  </div>
+</div>
+
+<!-- ── USAGE ── -->
+<div class="section-divider"><span class="section-divider-text">Usage Guidelines</span></div>
+<div class="usage-grid">
+  <div class="usage-card usage-do">
+    <div class="usage-title">✓ Use On</div>
+    <div class="usage-text">Dark green backgrounds · Near-black backgrounds · Cream / parchment backgrounds · White for print · Any surface where contrast ratio exceeds 4.5:1</div>
+  </div>
+  <div class="usage-card usage-do">
+    <div class="usage-title">✓ Primary Colours</div>
+    <div class="usage-text">Gold <strong style="color:#C9A052">#C9A052</strong> on dark<br>Forest <strong style="color:#3A9B5E">#1B3D2A</strong> on cream<br>Cream <strong style="color:#F4EDE0">#F4EDE0</strong> on dark green<br>Amber <strong style="color:#A07830">#A07830</strong> on cream</div>
+  </div>
+  <div class="usage-card usage-dont">
+    <div class="usage-title">✗ Never Do</div>
+    <div class="usage-text">Never stretch or distort the logo · Never place on a busy photographic background · Never use a coloured background that clashes · Never add drop shadows or effects · Never use less than 40px wide</div>
+  </div>
+  <div class="usage-card usage-do">
+    <div class="usage-title">✓ File Formats</div>
+    <div class="usage-text">SVG for web and all digital use (scales to any size perfectly) · Export as PNG at 2× and 4× for social media · Convert to PDF for print press</div>
+  </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,414 @@
+@import 'tailwindcss';
+
+/* ── Design tokens ─────────────────────────────────────────────────────────
+   Semantic colours flip between dark (default) and light. Each expedition can
+   override --accent inline (expeditions.accent_color) — never hardcode a country colour. */
+:root {
+  --bg: #0b1310;
+  --bg-raised: #111c17;
+  --bg-sunken: #070d0a;
+  --ink: #f2ebdd;
+  --ink-soft: #c9c0ae;
+  --ink-faint: #8f897c;
+  --line: rgb(232 220 196 / 0.12);
+  --line-strong: rgb(232 220 196 / 0.24);
+  --gold: #d4ae62;
+  --gold-ink: #1a1408;
+  --accent: var(--gold);
+  --danger: #e57b6f;
+  --ok: #7cc49a;
+  --paper: #f7f0e1;
+  --paper-ink: #1b2a21;
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --bg: #f5efe3;
+  --bg-raised: #fffdf8;
+  --bg-sunken: #ebe3d2;
+  --ink: #14231b;
+  --ink-soft: #3d4a41;
+  --ink-faint: #676a5f;
+  --line: rgb(20 35 27 / 0.13);
+  --line-strong: rgb(20 35 27 / 0.26);
+  --gold: #8a6a2a;
+  --gold-ink: #fffaf0;
+  --danger: #b4483c;
+  --ok: #2f7d52;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-raised: var(--bg-raised);
+  --color-sunken: var(--bg-sunken);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-gold: var(--gold);
+  --color-gold-ink: var(--gold-ink);
+  --color-accent: var(--accent);
+  --color-danger: var(--danger);
+  --color-ok: var(--ok);
+  --color-paper: var(--paper);
+  --color-paper-ink: var(--paper-ink);
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --font-sans: var(--font-jost), 'Jost', system-ui, sans-serif;
+  --font-type: var(--font-special-elite), 'Courier New', monospace;
+  --font-hand: var(--font-caveat), cursive;
+  --font-logo: var(--font-playfair), Georgia, serif;
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  /* Faint paper grain — gives the dark surfaces some tooth. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 60;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+  input, select, textarea, button {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-size: clamp(2.75rem, 7vw, 6.25rem);
+    font-weight: 500;
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+  }
+  .h-section {
+    font-size: clamp(2rem, 4.2vw, 3.4rem);
+  }
+  .lede {
+    font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+    color: var(--ink-soft);
+    line-height: 1.7;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    border-radius: 999px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+  }
+  .btn:active {
+    transform: translateY(1px);
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--gold-ink);
+    border: 1px solid var(--accent);
+  }
+  .btn-primary:hover {
+    background: color-mix(in srgb, var(--accent) 85%, white);
+  }
+  .btn-ghost {
+    border: 1px solid var(--line-strong);
+    color: var(--ink);
+  }
+  .btn-ghost:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .card {
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+  }
+  .hairline {
+    border-color: var(--line);
+  }
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent);
+    text-underline-offset: 0.25em;
+    text-decoration-thickness: 1px;
+  }
+  .link-underline:hover {
+    color: var(--accent);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 0.28rem 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .pulse-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background: var(--accent);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 70%, transparent);
+    animation: pulse-ring 2s infinite;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Form controls (public + admin) */
+  .field {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 1px solid var(--line-strong);
+    background: var(--bg-sunken);
+    color: var(--ink);
+    padding: 0.7rem 0.9rem;
+    font-size: 0.95rem;
+    transition: border-color 0.15s ease;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .field::placeholder {
+    color: var(--ink-faint);
+  }
+  .label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.4rem;
+  }
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent); }
+  70% { box-shadow: 0 0 0 10px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+.rise {
+  animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.rise-2 { animation-delay: 0.08s; }
+.rise-3 { animation-delay: 0.16s; }
+.rise-4 { animation-delay: 0.24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Passport book is drawn at a fixed 588×420 size; scale it down on phones. */
+@media (max-width: 680px) {
+  .passport-scale { zoom: 0.6; }
+}
+@media (max-width: 400px) {
+  .passport-scale { zoom: 0.54; }
+}
+
+/* Single-page passport view on phones: scale the 290×420 page to the screen width. */
+.passport-single { zoom: 1.15; }
+@media (min-width: 400px) { .passport-single { zoom: 1.25; } }
+@media (max-width: 359px) { .passport-single { zoom: 1; } }
+
+/* Mobile safety: grid cells may shrink below their content's natural width instead of stretching the page. */
+.grid > * { min-width: 0; }
+
+/* Long button labels wrap on phones instead of overflowing; short ones stay on one line from tablet up. */
+.btn { white-space: normal; text-align: center; line-height: 1.25; }
+@media (min-width: 640px) { .btn { white-space: nowrap; } }
+
+/* ── World palette: one colour per continent, shared by the globe and the map, tuned for dark and light ── */
+:root {
+  --c-africa: #c9a46e;
+  --c-asia: #c2899a;
+  --c-europe: #8a9dc4;
+  --c-north-america: #75a99c;
+  --c-south-america: #98ad7c;
+  --c-caribbean: #7fb0bf;
+  --c-oceania: #a08fbd;
+  --c-antarctica: #8e9caa;
+  --map-sea: #0f2236;
+  --map-sea-2: #17334d;
+  --map-line: rgb(255 255 255 / 0.3);
+  --map-glow-a: rgb(140 120 200 / 0.16);
+  --map-glow-b: rgb(90 170 165 / 0.13);
+}
+[data-theme='light'] {
+  --c-africa: #e8cc9c;
+  --c-asia: #e2b2bd;
+  --c-europe: #b7c4e0;
+  --c-north-america: #a8cfc4;
+  --c-south-america: #c4d6aa;
+  --c-caribbean: #aed4df;
+  --c-oceania: #cbbede;
+  --c-antarctica: #d5dde5;
+  --map-sea: #bcd7e8;
+  --map-sea-2: #dbeaf3;
+  --map-line: rgb(20 35 27 / 0.26);
+  --map-glow-a: rgb(240 200 170 / 0.25);
+  --map-glow-b: rgb(170 210 235 / 0.3);
+}
+
+/* Veil over full-bleed expedition photos: keeps text readable without washing the photo out. */
+.hero-veil {
+  background: linear-gradient(to top, var(--bg), color-mix(in srgb, var(--bg) 75%, transparent) 45%, color-mix(in srgb, var(--bg) 20%, transparent));
+}
+[data-theme='light'] .hero-veil {
+  background:
+    linear-gradient(to top, var(--bg) 0%, transparent 28%),
+    linear-gradient(to right, color-mix(in srgb, var(--bg) 82%, transparent) 0%, color-mix(in srgb, var(--bg) 55%, transparent) 42%, transparent 72%);
+}
+@media (max-width: 767px) {
+  [data-theme='light'] .hero-veil {
+    background: linear-gradient(to top, var(--bg) 0%, color-mix(in srgb, var(--bg) 70%, transparent) 40%, color-mix(in srgb, var(--bg) 25%, transparent));
+  }
+}
+.world-stage {
+  background:
+    radial-gradient(60% 55% at 22% 30%, var(--map-glow-a), transparent 70%),
+    radial-gradient(55% 60% at 80% 75%, var(--map-glow-b), transparent 70%);
+}
+@keyframes map-ping {
+  0% { transform: scale(0.6); opacity: 0.9; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
+.map-ping { transform-box: fill-box; transform-origin: center; animation: map-ping 2.2s ease-out infinite; }
+
+/* ───────── Cultural Passport animation library ───────── */
+@keyframes stamp-slam {
+  0% { opacity: 0; transform: scale(2.6) rotate(calc(var(--tilt) - 14deg)); filter: blur(7px); }
+  52% { opacity: 1; transform: scale(0.93) rotate(var(--tilt)); filter: blur(0); }
+  72% { transform: scale(1.045) rotate(var(--tilt)); }
+  100% { opacity: 0.94; transform: scale(1) rotate(var(--tilt)); }
+}
+@keyframes stamp-thud {
+  0% { opacity: 0.55; transform: scale(0.7); }
+  100% { opacity: 0; transform: scale(1.55); }
+}
+@keyframes sticker-peel {
+  0% { opacity: 0; transform: translateY(-14px) rotateX(38deg) scale(1.08); transform-origin: 50% 0; filter: drop-shadow(0 18px 12px rgb(0 0 0 / .5)); }
+  60% { opacity: 1; transform: translateY(1px) rotateX(-3deg) scale(0.995); }
+  100% { opacity: 1; transform: none; filter: none; }
+}
+@keyframes book-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-9px); }
+}
+@keyframes shadow-breathe {
+  0%, 100% { transform: scaleX(1); opacity: 0.45; }
+  50% { transform: scaleX(0.9); opacity: 0.3; }
+}
+@keyframes cover-shine {
+  0%, 62% { transform: translateX(-130%) skewX(-18deg); }
+  100% { transform: translateX(260%) skewX(-18deg); }
+}
+@keyframes foil-shift {
+  to { background-position: 220% 0; }
+}
+@keyframes flip-shade {
+  0% { opacity: 0; }
+  45% { opacity: 0.55; }
+  100% { opacity: 0; }
+}
+@keyframes page-out-fwd {
+  0% { transform: rotateY(0deg); opacity: 1; }
+  70% { opacity: 1; }
+  100% { transform: rotateY(-112deg); opacity: 0; }
+}
+@keyframes page-in-back {
+  0% { transform: rotateY(-112deg); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: rotateY(0deg); opacity: 1; }
+}
+.foil {
+  background: linear-gradient(115deg, #8a6a2a 0%, #f7e3a1 22%, #c9a052 40%, #fff3c4 52%, #c9a052 64%, #8a6a2a 100%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: foil-shift 7s linear infinite;
+  filter: drop-shadow(0 1px 0 rgb(0 0 0 / .45));
+}
+.page-shade { pointer-events: none; position: absolute; inset: 0; opacity: 0; background: linear-gradient(to right, rgb(0 0 0 / .55), transparent 55%); }
+.is-flipping .page-shade { animation: flip-shade 0.9s ease-in-out; }
+.is-flipping.flip-left .page-shade { background: linear-gradient(to left, rgb(0 0 0 / .55), transparent 55%); }
+.paper-spine-r { box-shadow: inset 14px 0 18px -10px rgb(0 0 0 / .32); }
+.paper-spine-l { box-shadow: inset -14px 0 18px -10px rgb(0 0 0 / .32); }

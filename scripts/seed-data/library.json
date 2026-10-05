@@ -1,0 +1,2995 @@
+[
+ {
+  "country": "Afghanistan",
+  "code": "AF",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "A Thousand Rooms of Dream and Fear",
+    "author": "Atiq Rahimi"
+   },
+   {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini"
+   },
+   {
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini"
+   },
+   {
+    "title": "The Patience Stone",
+    "author": "Atiq Rahimi"
+   },
+   {
+    "title": "Waiting for the Taliban",
+    "author": "Anna Badkhen"
+   },
+   {
+    "title": "The Photographer",
+    "author": "Emmanuel Guibert"
+   },
+   {
+    "title": "Behind the Burqa",
+    "author": "Batya Swift Yasgur"
+   }
+  ]
+ },
+ {
+  "country": "Albania",
+  "code": "AL",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Palace of Dreams",
+    "author": "Ismail Kadare"
+   },
+   {
+    "title": "Broken April",
+    "author": "Ismail Kadare"
+   },
+   {
+    "title": "The Loser",
+    "author": "Fatos Kongoli"
+   },
+   {
+    "title": "Sworn Virgin",
+    "author": "Elvira Dones"
+   }
+  ]
+ },
+ {
+  "country": "Algeria",
+  "code": "DZ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Sexual Life of an Islamist in Paris",
+    "author": "Leïla Marouane"
+   },
+   {
+    "title": "So Vast the Prison",
+    "author": "Assia Djebar"
+   },
+   {
+    "title": "The German Mujahid",
+    "author": "Boualem Sansal"
+   },
+   {
+    "title": "The Attack",
+    "author": "Yasmina Khadra"
+   },
+   {
+    "title": "The Lovers of Algeria",
+    "author": "Anouar Benmalek"
+   }
+  ]
+ },
+ {
+  "country": "Andorra",
+  "code": "AD",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Teacher of Cheops",
+    "author": "Albert Salvadó"
+   }
+  ]
+ },
+ {
+  "country": "Angola",
+  "code": "AO",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "My Father's Wives",
+    "author": "José Eduardo Agualusa"
+   },
+   {
+    "title": "The Return of the Water Spirit",
+    "author": "Pepetela"
+   },
+   {
+    "title": "Good Morning Comrades",
+    "author": "Ondjaki"
+   },
+   {
+    "title": "The Book of Chameleons",
+    "author": "José Eduardo Agualusa"
+   }
+  ]
+ },
+ {
+  "country": "Antigua and Barbuda",
+  "code": "AG",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "Lucy",
+    "author": "Jamaica Kincaid"
+   },
+   {
+    "title": "Annie John",
+    "author": "Jamaica Kincaid"
+   },
+   {
+    "title": "Unburnable",
+    "author": "Marie-Elena John"
+   }
+  ]
+ },
+ {
+  "country": "Argentina",
+  "code": "AR",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "Seconds Out",
+    "author": "Martin Kohan"
+   },
+   {
+    "title": "How I Became a Nun",
+    "author": "César Aira"
+   },
+   {
+    "title": "The Tunnel",
+    "author": "Ernesto Sábato"
+   },
+   {
+    "title": "The Invention of Morel",
+    "author": "Adolfo Bioy Casares"
+   },
+   {
+    "title": "Hopscotch",
+    "author": "Julio Cortázar"
+   },
+   {
+    "title": "Fever Dream",
+    "author": "Samanta Schweblin"
+   }
+  ]
+ },
+ {
+  "country": "Armenia",
+  "code": "AM",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Bringing Ararat",
+    "author": "Armand Inezian"
+   },
+   {
+    "title": "Armenian Golgotha",
+    "author": "Grigoris Balakian"
+   },
+   {
+    "title": "Three Apples Fell from the Sky",
+    "author": "Narine Abgaryan"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "code": "AU",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "Cloudstreet",
+    "author": "Tim Winton"
+   },
+   {
+    "title": "The Book Thief",
+    "author": "Markus Zusak"
+   },
+   {
+    "title": "The Boat",
+    "author": "Nam Le"
+   },
+   {
+    "title": "The White Earth",
+    "author": "Andrew McGahan"
+   },
+   {
+    "title": "Lovesong",
+    "author": "Alex Miller"
+   }
+  ]
+ },
+ {
+  "country": "Austria",
+  "code": "AT",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Torch in my Ear",
+    "author": "Elias Canetti"
+   },
+   {
+    "title": "Extinction",
+    "author": "Thomas Bernhard"
+   },
+   {
+    "title": "Splithead",
+    "author": "Julya Rabinovich"
+   },
+   {
+    "title": "A Whole Life",
+    "author": "Robert Seethaler"
+   }
+  ]
+ },
+ {
+  "country": "Azerbaijan",
+  "code": "AZ",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Magnolia",
+    "author": "Gioulzar Akhmedova"
+   },
+   {
+    "title": "Ali and Nino",
+    "author": "Kurban Said"
+   }
+  ]
+ },
+ {
+  "country": "The Bahamas",
+  "code": "BS",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "God's Angry Babies",
+    "author": "Ian Strachan"
+   }
+  ]
+ },
+ {
+  "country": "Bahrain",
+  "code": "BH",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Quixotiq",
+    "author": "Ali Al Saeed"
+   }
+  ]
+ },
+ {
+  "country": "Bangladesh",
+  "code": "BD",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Shame",
+    "author": "Taslima Nasrin"
+   },
+   {
+    "title": "The Good Muslim",
+    "author": "Tahmima Anam"
+   },
+   {
+    "title": "The Laughter of a Slave",
+    "author": "Shawkat Osman"
+   }
+  ]
+ },
+ {
+  "country": "Barbados",
+  "code": "BB",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "Redemption in Indigo",
+    "author": "Karen Lord"
+   },
+   {
+    "title": "Flickering Shadows",
+    "author": "Agymah Kamau"
+   }
+  ]
+ },
+ {
+  "country": "Belarus",
+  "code": "BY",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Sun City of Dreams",
+    "author": "Artur Klinov"
+   },
+   {
+    "title": "King Stakh's Wild Hunt",
+    "author": "Uladzimir Karatkievich"
+   },
+   {
+    "title": "Voices from Chernobyl",
+    "author": "Svetlana Alexievich"
+   },
+   {
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov"
+   }
+  ]
+ },
+ {
+  "country": "Belgium",
+  "code": "BE",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Adventures of Tintin",
+    "author": "Hergé"
+   },
+   {
+    "title": "The Guard",
+    "author": "Peter Terrin"
+   },
+   {
+    "title": "The Angel Maker",
+    "author": "Stefan Brijs"
+   },
+   {
+    "title": "The Misfortunates",
+    "author": "Dimitri Verhulst"
+   },
+   {
+    "title": "I Who Have Never Known Men",
+    "author": "Jacqueline Harpman"
+   }
+  ]
+ },
+ {
+  "country": "Belize",
+  "code": "BZ",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "On Heroes, Lizards and Passion",
+    "author": "Zoila Ellis"
+   }
+  ]
+ },
+ {
+  "country": "Benin",
+  "code": "BJ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Stories We Tell Each Other",
+    "author": "Rashidah Ismaili Abubakr"
+   }
+  ]
+ },
+ {
+  "country": "Bhutan",
+  "code": "BT",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Circle of Karma",
+    "author": "Kunzang Choden"
+   },
+   {
+    "title": "The Hero with a Thousand Eyes",
+    "author": "Karma Ura"
+   }
+  ]
+ },
+ {
+  "country": "Bolivia",
+  "code": "BO",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "American Visa",
+    "author": "Juan de Recacoechea"
+   },
+   {
+    "title": "Our Dead World",
+    "author": "Liliana Colanzi"
+   },
+   {
+    "title": "Sweet Blood",
+    "author": "Giovanna Rivero"
+   }
+  ]
+ },
+ {
+  "country": "Bosnia and Herzegovina",
+  "code": "BA",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Zlata's Diary",
+    "author": "Zlata Filipovic"
+   },
+   {
+    "title": "The Bridge on the Drina",
+    "author": "Ivo Andric"
+   },
+   {
+    "title": "Death and the Dervish",
+    "author": "Meša Selimović"
+   }
+  ]
+ },
+ {
+  "country": "Botswana",
+  "code": "BW",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "A Question of Power",
+    "author": "Bessie Head"
+   },
+   {
+    "title": "The Lion Children",
+    "author": "Angus McNeice"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "code": "BR",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho"
+   },
+   {
+    "title": "Dom Casmurro",
+    "author": "Machado de Assis"
+   },
+   {
+    "title": "Budapest",
+    "author": "Chico Buarque"
+   },
+   {
+    "title": "Agua Viva",
+    "author": "Clarice Lispector"
+   },
+   {
+    "title": "The Body Snatcher",
+    "author": "Patrícia Melo"
+   }
+  ]
+ },
+ {
+  "country": "Brunei",
+  "code": "BN",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Four Kings",
+    "author": "Christopher Sun"
+   },
+   {
+    "title": "The Forlorn Adventure",
+    "author": "Amir Falique"
+   }
+  ]
+ },
+ {
+  "country": "Bulgaria",
+  "code": "BG",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Tongue Set Free",
+    "author": "Elias Canetti"
+   },
+   {
+    "title": "Natural Novel",
+    "author": "Georgi Gospodinov"
+   },
+   {
+    "title": "Street Without a Name",
+    "author": "Kapka Kassabova"
+   },
+   {
+    "title": "Time of Parting",
+    "author": "Anton Donchev"
+   }
+  ]
+ },
+ {
+  "country": "Burkina Faso",
+  "code": "BF",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Parachute Drop",
+    "author": "Nobert Zongo"
+   }
+  ]
+ },
+ {
+  "country": "Burundi",
+  "code": "BI",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Baho!",
+    "author": "Roland Rugero"
+   },
+   {
+    "title": "Weep Not, Refugee",
+    "author": "Marie-Therese Toyi"
+   }
+  ]
+ },
+ {
+  "country": "Cambodia",
+  "code": "KH",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "In the Shadow of the Banyan",
+    "author": "Vaddey Ratner"
+   },
+   {
+    "title": "Unpolished Gem",
+    "author": "Alice Pung"
+   }
+  ]
+ },
+ {
+  "country": "Cameroon",
+  "code": "CM",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Poor Christ of Bomba",
+    "author": "Mongo Beti"
+   },
+   {
+    "title": "Mission to Kala",
+    "author": "Mongo Beti"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "code": "CA",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "Fugitive Pieces",
+    "author": "Anne Michaels"
+   },
+   {
+    "title": "Green Grass, Running Water",
+    "author": "Thomas King"
+   },
+   {
+    "title": "Late Nights on Air",
+    "author": "Elizabeth Hay"
+   },
+   {
+    "title": "In the Skin of a Lion",
+    "author": "Michael Ondaatje"
+   },
+   {
+    "title": "Galore",
+    "author": "Michael Crummey"
+   }
+  ]
+ },
+ {
+  "country": "Cape Verde",
+  "code": "CV",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Last Will & Testament of Senhor da Silva Araújo",
+    "author": "Germano Almeida"
+   }
+  ]
+ },
+ {
+  "country": "Central African Republic",
+  "code": "CF",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "African Tales",
+    "author": "Polly Strong (ed.)"
+   }
+  ]
+ },
+ {
+  "country": "Chad",
+  "code": "TD",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Told by Starlight in Chad",
+    "author": "Joseph Brahim Seid"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "code": "CL",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "The Savage Detectives",
+    "author": "Roberto Bolaño"
+   },
+   {
+    "title": "The House of the Spirits",
+    "author": "Isabel Allende"
+   },
+   {
+    "title": "Bonsai",
+    "author": "Alejandro Zambra"
+   },
+   {
+    "title": "Seeing Red",
+    "author": "Lina Meruane"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "code": "CN",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Soul Mountain",
+    "author": "Gao Xingjian"
+   },
+   {
+    "title": "Wolf Totem",
+    "author": "Jian Rong"
+   },
+   {
+    "title": "Dream of the Red Chamber",
+    "author": "Cao Xuequin"
+   },
+   {
+    "title": "The Garlic Ballads",
+    "author": "Mo Yan"
+   },
+   {
+    "title": "Rouge Street",
+    "author": "Shuang Xuetao"
+   },
+   {
+    "title": "The Good Women of China",
+    "author": "Xue Xinran"
+   }
+  ]
+ },
+ {
+  "country": "Colombia",
+  "code": "CO",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez"
+   },
+   {
+    "title": "The Armies",
+    "author": "Evelio Rosero"
+   },
+   {
+    "title": "Delirium",
+    "author": "Laura Restrepo"
+   },
+   {
+    "title": "The Informers",
+    "author": "Juan Gabriel Vasquez"
+   }
+  ]
+ },
+ {
+  "country": "Comoros",
+  "code": "KM",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Kafir of Karthala",
+    "author": "Mohammed Toihiri"
+   }
+  ]
+ },
+ {
+  "country": "Congo, Democratic Republic of",
+  "code": "CD",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Full Circle",
+    "author": "Frederick Yamusangie"
+   }
+  ]
+ },
+ {
+  "country": "Congo, Republic of",
+  "code": "CG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Johnny Mad Dog",
+    "author": "Emmanuel Dongala"
+   },
+   {
+    "title": "The Antipeople",
+    "author": "Sony Lab'ou Tansi"
+   },
+   {
+    "title": "Letter to Jimmy",
+    "author": "Alain Mabanckou"
+   }
+  ]
+ },
+ {
+  "country": "Costa Rica",
+  "code": "CR",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "The Madwoman of Gandoca",
+    "author": "Anacristina Rossi"
+   },
+   {
+    "title": "Cadence of the Moon",
+    "author": "Oscar Nunez Olivas"
+   }
+  ]
+ },
+ {
+  "country": "Côte d'Ivoire",
+  "code": "CI",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Climbié",
+    "author": "Bernard Dadié"
+   },
+   {
+    "title": "Allah is not Obliged",
+    "author": "Ahmadou Kourouma"
+   },
+   {
+    "title": "Standing Heavy",
+    "author": "GauZ'"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "code": "HR",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "On the Edge of Reason",
+    "author": "Miroslav Krleža"
+   },
+   {
+    "title": "The Ministry of Pain",
+    "author": "Dubravka Ugrĕsic"
+   },
+   {
+    "title": "Our Man in Iraq",
+    "author": "Robert Perišič"
+   }
+  ]
+ },
+ {
+  "country": "Cuba",
+  "code": "CU",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "Dancing to Almendra",
+    "author": "Mayra Montero"
+   },
+   {
+    "title": "The Man Who Loved Dogs",
+    "author": "Leonardo Padura"
+   },
+   {
+    "title": "Dogeaters",
+    "author": "Jessica Hagedorn"
+   }
+  ]
+ },
+ {
+  "country": "Cyprus",
+  "code": "CY",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "A Watermelon, a Fish and a Bible",
+    "author": "Christy Lefteri"
+   }
+  ]
+ },
+ {
+  "country": "Czech Republic",
+  "code": "CZ",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Too Loud a Solitude",
+    "author": "Bohumil Hrabal"
+   },
+   {
+    "title": "The Engineer of Human Souls",
+    "author": "Josef Škvorecký"
+   },
+   {
+    "title": "The Devil's Workshop",
+    "author": "Jáchym Topol"
+   }
+  ]
+ },
+ {
+  "country": "Denmark",
+  "code": "DK",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Exile",
+    "author": "Jakob Ejersbo"
+   },
+   {
+    "title": "The Exception",
+    "author": "Christian Jungersen"
+   },
+   {
+    "title": "Smilla's Sense of Snow",
+    "author": "Peter Høeg"
+   }
+  ]
+ },
+ {
+  "country": "Djibouti",
+  "code": "DJ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "In the United States of Africa",
+    "author": "Abdourahman Waberi"
+   },
+   {
+    "title": "Passage of Tears",
+    "author": "Abdourahman Waberi"
+   }
+  ]
+ },
+ {
+  "country": "Dominica",
+  "code": "DM",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "The Orchid House",
+    "author": "Phyllis Shand Allfrey"
+   },
+   {
+    "title": "Wide Sargasso Sea",
+    "author": "Jean Rhys"
+   }
+  ]
+ },
+ {
+  "country": "Dominican Republic",
+  "code": "DO",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "The Brief Wondrous Life of Oscar Wao",
+    "author": "Junot Diaz"
+   },
+   {
+    "title": "Tentacle",
+    "author": "Rita Indiana"
+   }
+  ]
+ },
+ {
+  "country": "East Timor",
+  "code": "TL",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Crossing",
+    "author": "Luis Cardoso"
+   }
+  ]
+ },
+ {
+  "country": "Ecuador",
+  "code": "EC",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "Huasipungo",
+    "author": "Jorge Icaza"
+   },
+   {
+    "title": "The Potbellied Virgin",
+    "author": "Alicia Yáñez Cossío"
+   }
+  ]
+ },
+ {
+  "country": "Egypt",
+  "code": "EG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Palace Walk (Cairo Trilogy)",
+    "author": "Naguib Mahfouz"
+   },
+   {
+    "title": "The Map of Love",
+    "author": "Ahdaf Soueif"
+   },
+   {
+    "title": "The Yacoubian Building",
+    "author": "Alaa Al Aswany"
+   },
+   {
+    "title": "Midaq Alley",
+    "author": "Naguib Mahfouz"
+   },
+   {
+    "title": "The Queue",
+    "author": "Basma Abdel Aziz"
+   }
+  ]
+ },
+ {
+  "country": "El Salvador",
+  "code": "SV",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "Senselessness",
+    "author": "Horacio Castellanos Moya"
+   }
+  ]
+ },
+ {
+  "country": "Equatorial Guinea",
+  "code": "GQ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "By Night the Mountain Burns",
+    "author": "Juan Tomás Ávila Laurel"
+   },
+   {
+    "title": "La Bastarda",
+    "author": "Trifonia Melibea Obono"
+   }
+  ]
+ },
+ {
+  "country": "Eritrea",
+  "code": "ER",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Heart of Fire",
+    "author": "Senait Mehari"
+   },
+   {
+    "title": "The Consequences of Love",
+    "author": "Sulaiman Addonia"
+   }
+  ]
+ },
+ {
+  "country": "Estonia",
+  "code": "EE",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Professor Martens' Departure",
+    "author": "Jaan Kross"
+   },
+   {
+    "title": "The Beauty of History",
+    "author": "Viivi Luik"
+   }
+  ]
+ },
+ {
+  "country": "Ethiopia",
+  "code": "ET",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Beneath the Lion's Gaze",
+    "author": "Maaza Mengiste"
+   },
+   {
+    "title": "Cutting for Stone",
+    "author": "Abraham Verghese"
+   }
+  ]
+ },
+ {
+  "country": "Fiji",
+  "code": "FJ",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "Kava in the Blood",
+    "author": "Peter Thomson"
+   },
+   {
+    "title": "Kisses in the Nederends",
+    "author": "Epeli Hau'ofa"
+   }
+  ]
+ },
+ {
+  "country": "Finland",
+  "code": "FI",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Year of the Hare",
+    "author": "Arto Paasilinna"
+   },
+   {
+    "title": "Purge",
+    "author": "Sofi Oksanen"
+   },
+   {
+    "title": "Memory of Water",
+    "author": "Emmi Itäranta"
+   }
+  ]
+ },
+ {
+  "country": "France",
+  "code": "FR",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Life: a User's Manual",
+    "author": "Georges Perec"
+   },
+   {
+    "title": "Exercises in Style",
+    "author": "Raymond Queneau"
+   },
+   {
+    "title": "A Novel Bookstore",
+    "author": "Laurence Cossé"
+   },
+   {
+    "title": "The French Art of War",
+    "author": "Alexis Jenni"
+   }
+  ]
+ },
+ {
+  "country": "Gabon",
+  "code": "GA",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Mema",
+    "author": "Daniel Mengara"
+   }
+  ]
+ },
+ {
+  "country": "The Gambia",
+  "code": "GM",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Reading the Ceiling",
+    "author": "Dayo Forster"
+   }
+  ]
+ },
+ {
+  "country": "Georgia",
+  "code": "GE",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Eighth Life: (for Brilka)",
+    "author": "Nino Haratischvili"
+   },
+   {
+    "title": "Data Tutashkhia",
+    "author": "Cabua Amirejibi"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "code": "DE",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Tin Drum",
+    "author": "Günter Grass"
+   },
+   {
+    "title": "Alone in Berlin",
+    "author": "Hans Fallada"
+   },
+   {
+    "title": "Siddhartha",
+    "author": "Herman Hesse"
+   },
+   {
+    "title": "Memoirs of a Polar Bear",
+    "author": "Yoko Tawada"
+   },
+   {
+    "title": "Higher Ground",
+    "author": "Anke Stelling"
+   }
+  ]
+ },
+ {
+  "country": "Ghana",
+  "code": "GH",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Beautyful Ones Are Not Yet Born",
+    "author": "Ayi Kwei Armah"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "code": "GR",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Freedom or Death",
+    "author": "Nikos Kazantzakis"
+   },
+   {
+    "title": "The Last Temptation",
+    "author": "Nikos Kazantzakis"
+   }
+  ]
+ },
+ {
+  "country": "Grenada",
+  "code": "GD",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "The Ladies are Upstairs",
+    "author": "Merle Collins"
+   }
+  ]
+ },
+ {
+  "country": "Guatemala",
+  "code": "GT",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "The President",
+    "author": "Miguel Angel Asturias"
+   },
+   {
+    "title": "The Polish Boxer",
+    "author": "Eduardo Halfon"
+   }
+  ]
+ },
+ {
+  "country": "Guinea",
+  "code": "GN",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Radiance of the King",
+    "author": "Camara Laye"
+   }
+  ]
+ },
+ {
+  "country": "Guinea-Bissau",
+  "code": "GW",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Ultimate Tragedy",
+    "author": "Abdulai Silá"
+   }
+  ]
+ },
+ {
+  "country": "Guyana",
+  "code": "GY",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "Buxton Spice",
+    "author": "Oonya Kempadoo"
+   }
+  ]
+ },
+ {
+  "country": "Haiti",
+  "code": "HT",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "The Farming of the Bones",
+    "author": "Edwidge Danticat"
+   },
+   {
+    "title": "How to Make Love to a Negro without Getting Tired",
+    "author": "Dany Laferriere"
+   }
+  ]
+ },
+ {
+  "country": "Honduras",
+  "code": "HN",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "Points of Light",
+    "author": "Guillermo Yuscaran"
+   }
+  ]
+ },
+ {
+  "country": "Hungary",
+  "code": "HU",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Embers",
+    "author": "Sándor Márai"
+   },
+   {
+    "title": "Skylark",
+    "author": "Dezső Kosztolányi"
+   },
+   {
+    "title": "Journey by Moonlight",
+    "author": "Antal Szerb"
+   },
+   {
+    "title": "Fatelessness",
+    "author": "Imre Kertész"
+   }
+  ]
+ },
+ {
+  "country": "Iceland",
+  "code": "IS",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Jar City",
+    "author": "Arnaldur Indridason"
+   },
+   {
+    "title": "The Atom Station",
+    "author": "Halldór Laxness"
+   },
+   {
+    "title": "The Greenhouse",
+    "author": "Auður A Ólafsdóttir"
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "code": "IN",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+   },
+   {
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+   },
+   {
+    "title": "Malgudi Days",
+    "author": "RK Narayan"
+   },
+   {
+    "title": "Train to Pakistan",
+    "author": "Kushwant Singh"
+   },
+   {
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+   },
+   {
+    "title": "Ghachar Ghochar",
+    "author": "Vivek Shanbhag"
+   }
+  ]
+ },
+ {
+  "country": "Indonesia",
+  "code": "ID",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "This Earth of Mankind",
+    "author": "Pramoedya Ananta Toer"
+   },
+   {
+    "title": "The Rainbow Troops",
+    "author": "Andrea Hirata"
+   },
+   {
+    "title": "Man Tiger",
+    "author": "Eka Kurniawan"
+   },
+   {
+    "title": "Saman",
+    "author": "Ayu Utami"
+   }
+  ]
+ },
+ {
+  "country": "Iran",
+  "code": "IR",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "We are Iran",
+    "author": "Nasrin Alavi"
+   },
+   {
+    "title": "Touba and the Meaning of Night",
+    "author": "Shahrnush Parsipur"
+   },
+   {
+    "title": "The Colonel",
+    "author": "Mahmoud Dowlatabadi"
+   }
+  ]
+ },
+ {
+  "country": "Iraq",
+  "code": "IQ",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "An Iraqi in Paris",
+    "author": "Samuel Shimon"
+   },
+   {
+    "title": "The Madman of Freedom Square",
+    "author": "Hassan Blasim"
+   },
+   {
+    "title": "Thirsty River",
+    "author": "Rodaan Al Galidi"
+   }
+  ]
+ },
+ {
+  "country": "Ireland",
+  "code": "IE",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Ulysses",
+    "author": "James Joyce"
+   },
+   {
+    "title": "The Third Policeman",
+    "author": "Flann O'Brien"
+   },
+   {
+    "title": "The Secret Scripture",
+    "author": "Sebastian Barry"
+   }
+  ]
+ },
+ {
+  "country": "Israel",
+  "code": "IL",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "To the End of the Land",
+    "author": "David Grossman"
+   },
+   {
+    "title": "A Tale of Love and Darkness",
+    "author": "Amos Oz"
+   },
+   {
+    "title": "Blooms of Darkness",
+    "author": "Aharon Appelfeld"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "code": "IT",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Gomorrah",
+    "author": "Roberto Saviano"
+   },
+   {
+    "title": "My Brilliant Friend",
+    "author": "Elena Ferrante"
+   },
+   {
+    "title": "The Leopard",
+    "author": "Giuseppe Tomasi di Lampedusa"
+   },
+   {
+    "title": "The Tartar Steppe",
+    "author": "Dino Buzzati"
+   }
+  ]
+ },
+ {
+  "country": "Jamaica",
+  "code": "JM",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "The Book of Night Women",
+    "author": "Marlon James"
+   },
+   {
+    "title": "The Pirate's Daughter",
+    "author": "Margaret Cezair-Thompson"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "code": "JP",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami"
+   },
+   {
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami"
+   },
+   {
+    "title": "Snow Country",
+    "author": "Yasunari Kawabata"
+   },
+   {
+    "title": "Breasts and Eggs",
+    "author": "Mieko Kawakami"
+   },
+   {
+    "title": "I am a Cat",
+    "author": "Natsume Sōseki"
+   }
+  ]
+ },
+ {
+  "country": "Jordan",
+  "code": "JO",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Time of White Horses",
+    "author": "Ibrahim Nasrallah"
+   },
+   {
+    "title": "Cities of Salt",
+    "author": "Abdulrahman Munif"
+   }
+  ]
+ },
+ {
+  "country": "Kazakhstan",
+  "code": "KZ",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Silent Steppe",
+    "author": "Mukhamet Shayakhmetov"
+   },
+   {
+    "title": "Nomads",
+    "author": "Ilyas Esenberlin"
+   }
+  ]
+ },
+ {
+  "country": "Kenya",
+  "code": "KE",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "A Grain of Wheat",
+    "author": "Ngũgĩ wa Thiong'o"
+   },
+   {
+    "title": "Wizard of the Crow",
+    "author": "Ngũgĩ wa Thiong'o"
+   },
+   {
+    "title": "Dust",
+    "author": "Yvonne Adhiambo Owuor"
+   }
+  ]
+ },
+ {
+  "country": "Kuwait",
+  "code": "KW",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Pearling in the Arabian Gulf",
+    "author": "Saif Marzooq al-Shamlan"
+   }
+  ]
+ },
+ {
+  "country": "Kyrgyzstan",
+  "code": "KG",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Jamilia",
+    "author": "Chinghiz Aitmatov"
+   },
+   {
+    "title": "The Day Lasts More than a Hundred Years",
+    "author": "Chinghiz Aitmatov"
+   }
+  ]
+ },
+ {
+  "country": "Laos",
+  "code": "LA",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Mother's Beloved",
+    "author": "Outhine Bounyavong"
+   }
+  ]
+ },
+ {
+  "country": "Latvia",
+  "code": "LV",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Free World",
+    "author": "David Bezmozgis"
+   },
+   {
+    "title": "A Woman in Amber",
+    "author": "Agate Nesaule"
+   }
+  ]
+ },
+ {
+  "country": "Lebanon",
+  "code": "LB",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "I Killed Scheherazade",
+    "author": "Joumana Haddad"
+   },
+   {
+    "title": "Gate of the Sun",
+    "author": "Elias Khoury"
+   },
+   {
+    "title": "Samarkand",
+    "author": "Amin Maalouf"
+   }
+  ]
+ },
+ {
+  "country": "Lesotho",
+  "code": "LS",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Chaka",
+    "author": "Thomas Mofolo"
+   }
+  ]
+ },
+ {
+  "country": "Liberia",
+  "code": "LR",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The House at Sugar Beach",
+    "author": "Helene Cooper"
+   }
+  ]
+ },
+ {
+  "country": "Libya",
+  "code": "LY",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "In the Country of Men",
+    "author": "Hisham Matar"
+   },
+   {
+    "title": "Gold Dust",
+    "author": "Ibrahim Al-Khoni"
+   }
+  ]
+ },
+ {
+  "country": "Liechtenstein",
+  "code": "LI",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Seven Years in Tibet",
+    "author": "Heinrich Harrer"
+   }
+  ]
+ },
+ {
+  "country": "Lithuania",
+  "code": "LT",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Vilnius Poker",
+    "author": "Ricardas Gavelis"
+   },
+   {
+    "title": "Forest of the Gods",
+    "author": "Balys Sruoga"
+   }
+  ]
+ },
+ {
+  "country": "Luxembourg",
+  "code": "LU",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Amateur",
+    "author": "Jean Back"
+   }
+  ]
+ },
+ {
+  "country": "North Macedonia",
+  "code": "MK",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Sigmund Freud's Sister",
+    "author": "Goce Smilevski"
+   }
+  ]
+ },
+ {
+  "country": "Madagascar",
+  "code": "MG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Beyond the Rice Fields",
+    "author": "Naivo"
+   }
+  ]
+ },
+ {
+  "country": "Malawi",
+  "code": "MW",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Jive Talker",
+    "author": "Samson Kambalu"
+   }
+  ]
+ },
+ {
+  "country": "Malaysia",
+  "code": "MY",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Ripples and Other Stories",
+    "author": "Shih-Li Kow"
+   },
+   {
+    "title": "This End of The Rainbow",
+    "author": "Adibah Amin"
+   }
+  ]
+ },
+ {
+  "country": "Maldives",
+  "code": "MV",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Dhon Hiyala and Ali Fulhu",
+    "author": "Abdullah Sadiq"
+   }
+  ]
+ },
+ {
+  "country": "Mali",
+  "code": "ML",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Strange Destiny of Wangrin",
+    "author": "Amadou Hampâté Bâ"
+   },
+   {
+    "title": "Bound to Violence",
+    "author": "Yambo Ouloguem"
+   }
+  ]
+ },
+ {
+  "country": "Malta",
+  "code": "MT",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Happy Weekend",
+    "author": "Immanuel Mifsud"
+   }
+  ]
+ },
+ {
+  "country": "Mauritania",
+  "code": "MR",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Desert and the Drum",
+    "author": "Mbarek Ould Beyrouk"
+   }
+  ]
+ },
+ {
+  "country": "Mauritius",
+  "code": "MU",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Last Brother",
+    "author": "Nathacha Appanah"
+   }
+  ]
+ },
+ {
+  "country": "Mexico",
+  "code": "MX",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "Like Water for Chocolate",
+    "author": "Laura Esquivel"
+   },
+   {
+    "title": "The Labyrinth of Solitude",
+    "author": "Octavio Paz"
+   },
+   {
+    "title": "Pedro Paramo",
+    "author": "Juan Rulfo"
+   },
+   {
+    "title": "Hurricane Season",
+    "author": "Fernanda Melchor"
+   }
+  ]
+ },
+ {
+  "country": "Moldova",
+  "code": "MD",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Good Life Elsewhere",
+    "author": "Vladimir Lorchenkov"
+   }
+  ]
+ },
+ {
+  "country": "Mongolia",
+  "code": "MN",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Blue Sky",
+    "author": "Galsan Tschinag"
+   }
+  ]
+ },
+ {
+  "country": "Montenegro",
+  "code": "ME",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Mountain Wreath",
+    "author": "Petar II Petrović-Njegoš"
+   }
+  ]
+ },
+ {
+  "country": "Morocco",
+  "code": "MA",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Sacred Night",
+    "author": "Tahar Ben Jelloun"
+   },
+   {
+    "title": "This Blinding Absence of Light",
+    "author": "Tahar Ben Jelloun"
+   },
+   {
+    "title": "For Bread Alone",
+    "author": "Muhammad Shukri"
+   }
+  ]
+ },
+ {
+  "country": "Mozambique",
+  "code": "MZ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Sleepwalking Land",
+    "author": "Mia Couto"
+   },
+   {
+    "title": "Niketche",
+    "author": "Paulina Chiziane"
+   }
+  ]
+ },
+ {
+  "country": "Myanmar",
+  "code": "MM",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Smile as they Bow",
+    "author": "Nu Nu Yi Inwa"
+   }
+  ]
+ },
+ {
+  "country": "Namibia",
+  "code": "NA",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Purple Violet of Oshaantu",
+    "author": "Neshani Andreas"
+   }
+  ]
+ },
+ {
+  "country": "Nepal",
+  "code": "NP",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Buddha's Orphans",
+    "author": "Samrat Upadhyay"
+   },
+   {
+    "title": "Blue Mimosa",
+    "author": "Parijat"
+   },
+   {
+    "title": "The Gurkha's Daughter",
+    "author": "Prajwal Parajuly"
+   }
+  ]
+ },
+ {
+  "country": "Netherlands",
+  "code": "NL",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Discovery of Heaven",
+    "author": "Harry Mulisch"
+   },
+   {
+    "title": "The Twin",
+    "author": "Gerbrand Bakker"
+   },
+   {
+    "title": "The House of the Mosque",
+    "author": "Kader Abdolah"
+   },
+   {
+    "title": "The Evenings",
+    "author": "Gerard Reve"
+   },
+   {
+    "title": "Dear Mr M",
+    "author": "Herman Koch"
+   }
+  ]
+ },
+ {
+  "country": "New Zealand",
+  "code": "NZ",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "The Bone People",
+    "author": "Keri Hulme"
+   },
+   {
+    "title": "Mr Pip",
+    "author": "Lloyd Jones"
+   },
+   {
+    "title": "Once Were Warriors",
+    "author": "Alan Duff"
+   },
+   {
+    "title": "The Luminaries",
+    "author": "Eleanor Catton"
+   }
+  ]
+ },
+ {
+  "country": "Nicaragua",
+  "code": "NI",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "Infinity in the Palm of her Hand",
+    "author": "Gioconda Belli"
+   }
+  ]
+ },
+ {
+  "country": "Niger",
+  "code": "NE",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Epic of Askia Mohammed",
+    "author": "Nouhou Malio"
+   }
+  ]
+ },
+ {
+  "country": "Nigeria",
+  "code": "NG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe"
+   },
+   {
+    "title": "Americanah",
+    "author": "Chimamanda Ngozi Adichie"
+   },
+   {
+    "title": "Half of a Yellow Sun",
+    "author": "Chimamanda Ngozi Adichie"
+   },
+   {
+    "title": "The Secret Lives of Baba Segi's Wives",
+    "author": "Lola Shoneyin"
+   }
+  ]
+ },
+ {
+  "country": "North Korea",
+  "code": "KP",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "My Life and Faith",
+    "author": "Ri In Mo"
+   }
+  ]
+ },
+ {
+  "country": "Norway",
+  "code": "NO",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "My Struggle",
+    "author": "Karl Ove Knausgaard"
+   },
+   {
+    "title": "Hunger",
+    "author": "Knut Hamsun"
+   },
+   {
+    "title": "Out Stealing Horses",
+    "author": "Per Petterson"
+   },
+   {
+    "title": "The Ice Palace",
+    "author": "Tarjei Vesaas"
+   }
+  ]
+ },
+ {
+  "country": "Oman",
+  "code": "OM",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Behind the Veil in Arabia",
+    "author": "Unni Wikan"
+   }
+  ]
+ },
+ {
+  "country": "Pakistan",
+  "code": "PK",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Reluctant Fundamentalist",
+    "author": "Mohsin Hamid"
+   },
+   {
+    "title": "The Wandering Falcon",
+    "author": "Jamil Ahmad"
+   },
+   {
+    "title": "Kartography",
+    "author": "Kamila Shamsie"
+   },
+   {
+    "title": "Burnt Shadows",
+    "author": "Kamila Shamsie"
+   }
+  ]
+ },
+ {
+  "country": "Palestine",
+  "code": "PS",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Tasting the Sky",
+    "author": "Ibtisam Barakat"
+   },
+   {
+    "title": "Mornings in Jenin",
+    "author": "Susan Abulhawa"
+   },
+   {
+    "title": "Wild Thorns",
+    "author": "Sahar Khalifeh"
+   }
+  ]
+ },
+ {
+  "country": "Panama",
+  "code": "PA",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "The Golden Horse",
+    "author": "Juan David Morgan"
+   }
+  ]
+ },
+ {
+  "country": "Papua New Guinea",
+  "code": "PG",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "The Crocodile",
+    "author": "Vincent Eri"
+   }
+  ]
+ },
+ {
+  "country": "Paraguay",
+  "code": "PY",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "I, the Supreme",
+    "author": "Augusto Roa Bastos"
+   }
+  ]
+ },
+ {
+  "country": "Peru",
+  "code": "PE",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "Death in the Andes",
+    "author": "Mario Vargas Llosa"
+   },
+   {
+    "title": "Aunt Julia and the Scriptwriter",
+    "author": "Mario Vargas Llosa"
+   }
+  ]
+ },
+ {
+  "country": "Philippines",
+  "code": "PH",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Illustrado",
+    "author": "Miguel Syjuco"
+   },
+   {
+    "title": "Dogeaters",
+    "author": "Jessica Hagedorn"
+   },
+   {
+    "title": "State of War",
+    "author": "Ninotchka Rosca"
+   }
+  ]
+ },
+ {
+  "country": "Poland",
+  "code": "PL",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Primeval and Other Times",
+    "author": "Olga Tokarczuk"
+   },
+   {
+    "title": "Flights",
+    "author": "Olga Tokarczuk"
+   },
+   {
+    "title": "Stone upon Stone",
+    "author": "Wiesław Myśliwski"
+   },
+   {
+    "title": "Entanglement",
+    "author": "Zygmunt Miloszewski"
+   }
+  ]
+ },
+ {
+  "country": "Portugal",
+  "code": "PT",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Blindness",
+    "author": "José Saramago"
+   },
+   {
+    "title": "The Year of the Death of Ricardo Reis",
+    "author": "José Saramago"
+   }
+  ]
+ },
+ {
+  "country": "Qatar",
+  "code": "QA",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Corsair",
+    "author": "Abdul Aziz Al Mahmoud"
+   }
+  ]
+ },
+ {
+  "country": "Romania",
+  "code": "RO",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Passport",
+    "author": "Herta Müller"
+   },
+   {
+    "title": "The Baiut Alley Lads",
+    "author": "Filip and Matei Florian"
+   }
+  ]
+ },
+ {
+  "country": "Russia",
+  "code": "RU",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky"
+   },
+   {
+    "title": "One Day in the Life of Ivan Denisovich",
+    "author": "Aleksandr Solzhenitsyn"
+   },
+   {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy"
+   },
+   {
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov"
+   },
+   {
+    "title": "Zuleikha",
+    "author": "Guzel Yakhina"
+   }
+  ]
+ },
+ {
+  "country": "Rwanda",
+  "code": "RW",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "We Wish to Inform You...",
+    "author": "Philip Gourevitch"
+   },
+   {
+    "title": "Small Country",
+    "author": "Gaël Faye"
+   }
+  ]
+ },
+ {
+  "country": "Saint Lucia",
+  "code": "LC",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "Omeros",
+    "author": "Derek Walcott"
+   }
+  ]
+ },
+ {
+  "country": "Samoa",
+  "code": "WS",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "Where We Once Belonged",
+    "author": "Sia Figiel"
+   },
+   {
+    "title": "Sons for the Return Home",
+    "author": "Albert Wendt"
+   }
+  ]
+ },
+ {
+  "country": "Saudi Arabia",
+  "code": "SA",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Girls of Riyadh",
+    "author": "Rajaa Al-Sanea"
+   },
+   {
+    "title": "Cities of Salt",
+    "author": "Abdul Rahman Munif"
+   }
+  ]
+ },
+ {
+  "country": "Senegal",
+  "code": "SN",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "So Long a Letter",
+    "author": "Mariama Bâ"
+   },
+   {
+    "title": "The Hidden Notebooks",
+    "author": "Boubacar Boris Diop"
+   }
+  ]
+ },
+ {
+  "country": "Serbia",
+  "code": "RS",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Dictionary of the Khazars",
+    "author": "Milorad Pavic"
+   },
+   {
+    "title": "Bait",
+    "author": "David Albahari"
+   }
+  ]
+ },
+ {
+  "country": "Sierra Leone",
+  "code": "SL",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Memory of Love",
+    "author": "Aminatta Forna"
+   },
+   {
+    "title": "A Long Way Gone",
+    "author": "Ishmael Beah"
+   }
+  ]
+ },
+ {
+  "country": "Singapore",
+  "code": "SG",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Fistful of Colours",
+    "author": "Su-Chen Christine Lim"
+   }
+  ]
+ },
+ {
+  "country": "Slovakia",
+  "code": "SK",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Rivers of Babylon",
+    "author": "Peter Pišťanek"
+   },
+   {
+    "title": "Seeing People Off",
+    "author": "Jana Beňová"
+   }
+  ]
+ },
+ {
+  "country": "Slovenia",
+  "code": "SI",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Alamut",
+    "author": "Vladimir Bartol"
+   },
+   {
+    "title": "Fužine Blues",
+    "author": "Andrej Skubic"
+   }
+  ]
+ },
+ {
+  "country": "Solomon Islands",
+  "code": "SB",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "The Alternative",
+    "author": "John Saunana"
+   }
+  ]
+ },
+ {
+  "country": "Somalia",
+  "code": "SO",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Secrets",
+    "author": "Nuruddin Farah"
+   },
+   {
+    "title": "Sweet and Sour Milk",
+    "author": "Nuruddin Farah"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "code": "ZA",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Cry, the Beloved Country",
+    "author": "Alan Paton"
+   },
+   {
+    "title": "The Long Walk to Freedom",
+    "author": "Nelson Mandela"
+   },
+   {
+    "title": "Fiela's Child",
+    "author": "Dalene Matthee"
+   },
+   {
+    "title": "The Power of One",
+    "author": "Bryce Courtenay"
+   }
+  ]
+ },
+ {
+  "country": "South Korea",
+  "code": "KR",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Pachinko",
+    "author": "Min Jin Lee"
+   },
+   {
+    "title": "The Vegetarian",
+    "author": "Han Kang"
+   },
+   {
+    "title": "Please Look After Mom",
+    "author": "Shin Kyung-Sook"
+   }
+  ]
+ },
+ {
+  "country": "South Sudan",
+  "code": "SS",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "To Forgive is Divine Not Human",
+    "author": "Julia Duany"
+   }
+  ]
+ },
+ {
+  "country": "Spain",
+  "code": "ES",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes"
+   },
+   {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón"
+   },
+   {
+    "title": "Soldiers of Salamis",
+    "author": "Javier Cercas"
+   },
+   {
+    "title": "Boulder",
+    "author": "Eva Baltasar"
+   }
+  ]
+ },
+ {
+  "country": "Sri Lanka",
+  "code": "LK",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Reef",
+    "author": "Romesh Gunesekera"
+   },
+   {
+    "title": "Chinaman",
+    "author": "Shehan Karunatilaka"
+   },
+   {
+    "title": "The Jam Fruit Tree",
+    "author": "Carl Muller"
+   }
+  ]
+ },
+ {
+  "country": "Sudan",
+  "code": "SD",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Season of Migration to the North",
+    "author": "Tayeb Salih"
+   },
+   {
+    "title": "Minaret",
+    "author": "Leila Aboulela"
+   }
+  ]
+ },
+ {
+  "country": "Suriname",
+  "code": "SR",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "The Cost of Sugar",
+    "author": "Cynthia Mcleod"
+   }
+  ]
+ },
+ {
+  "country": "Eswatini",
+  "code": "SZ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Weeding the Flowerbeds",
+    "author": "Sarah Mkhonza"
+   }
+  ]
+ },
+ {
+  "country": "Sweden",
+  "code": "SE",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Doctor Glas",
+    "author": "Hjalmar Soderberg"
+   },
+   {
+    "title": "Let the Right One In",
+    "author": "John Ajvide Lindqvist"
+   },
+   {
+    "title": "The Hundred-Year-Old Man...",
+    "author": "Jonas Jonasson"
+   },
+   {
+    "title": "Wilful Disregard",
+    "author": "Lena Andersson"
+   }
+  ]
+ },
+ {
+  "country": "Switzerland",
+  "code": "CH",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Pledge",
+    "author": "Friedrich Dürrenmatt"
+   },
+   {
+    "title": "A Village Romeo and Juliet",
+    "author": "Gottfried Keller"
+   },
+   {
+    "title": "Beauty on Earth",
+    "author": "Charles-Ferdinand Ramuz"
+   }
+  ]
+ },
+ {
+  "country": "Syria",
+  "code": "SY",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Damascus Nights",
+    "author": "Rafik Schami"
+   },
+   {
+    "title": "In Praise of Hatred",
+    "author": "Khaled Khalifa"
+   },
+   {
+    "title": "Breaking Knees",
+    "author": "Zakaria Tamer"
+   }
+  ]
+ },
+ {
+  "country": "Taiwan",
+  "code": "TW",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Crystal Boys",
+    "author": "Pai Hsien-yung"
+   },
+   {
+    "title": "An Excess Male",
+    "author": "Maggie Shen King"
+   }
+  ]
+ },
+ {
+  "country": "Tajikistan",
+  "code": "TJ",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Hurramabad",
+    "author": "Andrei Volos"
+   }
+  ]
+ },
+ {
+  "country": "Tanzania",
+  "code": "TZ",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Desertion",
+    "author": "Abdulrazak Gurnah"
+   },
+   {
+    "title": "Blood on Our Land",
+    "author": "Ismael Mbise"
+   }
+  ]
+ },
+ {
+  "country": "Thailand",
+  "code": "TH",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Judgement",
+    "author": "Chart Korbjitti"
+   },
+   {
+    "title": "A Child of the Northeast",
+    "author": "Kampoon Boontawee"
+   }
+  ]
+ },
+ {
+  "country": "Togo",
+  "code": "TG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "An African in Greenland",
+    "author": "Tété-Michel Kpomassie"
+   }
+  ]
+ },
+ {
+  "country": "Tonga",
+  "code": "TO",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "A Providence of War",
+    "author": "Joshua Taumoefolau"
+   }
+  ]
+ },
+ {
+  "country": "Trinidad and Tobago",
+  "code": "TT",
+  "continent": "Caribbean",
+  "books": [
+   {
+    "title": "A House for Mr Biswas",
+    "author": "VS Naipaul"
+   },
+   {
+    "title": "The White Woman on the Green Bicycle",
+    "author": "Monique Roffey"
+   }
+  ]
+ },
+ {
+  "country": "Tunisia",
+  "code": "TN",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Scents of Marie-Claire",
+    "author": "Habib Selmi"
+   },
+   {
+    "title": "A Tunisian Tale",
+    "author": "Hassouna Mosbahi"
+   }
+  ]
+ },
+ {
+  "country": "Turkey",
+  "code": "TR",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Snow",
+    "author": "Orhan Pamuk"
+   },
+   {
+    "title": "The Forty Rules of Love",
+    "author": "Elif Shafak"
+   },
+   {
+    "title": "Dear Shameless Death",
+    "author": "Latife Tekin"
+   },
+   {
+    "title": "The Time Regulation Institute",
+    "author": "Ahmet Hamdi Tanpinar"
+   }
+  ]
+ },
+ {
+  "country": "Turkmenistan",
+  "code": "TM",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "Unknown Sands",
+    "author": "John Kropf"
+   },
+   {
+    "title": "The Tale of Aypi",
+    "author": "Ak Welsapar"
+   }
+  ]
+ },
+ {
+  "country": "Uganda",
+  "code": "UG",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Abyssinian Chronicles",
+    "author": "Moses Isegawa"
+   },
+   {
+    "title": "Kintu",
+    "author": "Jennifer Nansubuga Makumbi"
+   },
+   {
+    "title": "The First Woman",
+    "author": "Jennifer Nansubuga Makumbi"
+   }
+  ]
+ },
+ {
+  "country": "Ukraine",
+  "code": "UA",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "Death and the Penguin",
+    "author": "Andrey Kurkov"
+   },
+   {
+    "title": "Life Went on Anyway",
+    "author": "Oleg Sentsov"
+   }
+  ]
+ },
+ {
+  "country": "United Arab Emirates",
+  "code": "AE",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Sand Fish",
+    "author": "Maha Gargash"
+   },
+   {
+    "title": "Temporary People",
+    "author": "Deepak Unnikrishnan"
+   }
+  ]
+ },
+ {
+  "country": "United Kingdom",
+  "code": "GB",
+  "continent": "Europe",
+  "books": [
+   {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro"
+   },
+   {
+    "title": "Swimming Home",
+    "author": "Deborah Levy"
+   },
+   {
+    "title": "The Good Immigrant",
+    "author": "Nikesh Shukla (ed.)"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "code": "US",
+  "continent": "North America",
+  "books": [
+   {
+    "title": "American Gods",
+    "author": "Neil Gaiman"
+   },
+   {
+    "title": "The Poisonwood Bible",
+    "author": "Barbara Kingsolver"
+   },
+   {
+    "title": "The Killer Angels",
+    "author": "Michael Shaara"
+   },
+   {
+    "title": "Fear and Loathing in Las Vegas",
+    "author": "Hunter S Thompson"
+   }
+  ]
+ },
+ {
+  "country": "Uruguay",
+  "code": "UY",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "The Shipyard",
+    "author": "Juan Carlos Onetti"
+   },
+   {
+    "title": "Lands of Memory",
+    "author": "Felisberto Hernández"
+   }
+  ]
+ },
+ {
+  "country": "Uzbekistan",
+  "code": "UZ",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Railway",
+    "author": "Hamid Ismailov"
+   },
+   {
+    "title": "The Dancer from Khiva",
+    "author": "Bibish"
+   }
+  ]
+ },
+ {
+  "country": "Vanuatu",
+  "code": "VU",
+  "continent": "Oceania",
+  "books": [
+   {
+    "title": "Laef Blong Mi",
+    "author": "Regis Seva Regenvanu"
+   }
+  ]
+ },
+ {
+  "country": "Venezuela",
+  "code": "VE",
+  "continent": "South America",
+  "books": [
+   {
+    "title": "The Sickness",
+    "author": "Alberto Barrera Tyszka"
+   }
+  ]
+ },
+ {
+  "country": "Vietnam",
+  "code": "VN",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "The Sorrow of War",
+    "author": "Bao Ninh"
+   },
+   {
+    "title": "Paradise of the Blind",
+    "author": "Duong Thu Huong"
+   }
+  ]
+ },
+ {
+  "country": "Yemen",
+  "code": "YE",
+  "continent": "Asia",
+  "books": [
+   {
+    "title": "A Land without Jasmine",
+    "author": "Wajdi al-Ahdal"
+   },
+   {
+    "title": "The Hostage",
+    "author": "Zayd Mutee' Dammaj"
+   }
+  ]
+ },
+ {
+  "country": "Zambia",
+  "code": "ZM",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "The Old Drift",
+    "author": "Namwali Serpell"
+   },
+   {
+    "title": "A Cowrie of Hope",
+    "author": "Binwell Sinyangwe"
+   }
+  ]
+ },
+ {
+  "country": "Zimbabwe",
+  "code": "ZW",
+  "continent": "Africa",
+  "books": [
+   {
+    "title": "Nervous Conditions",
+    "author": "Tsitsi Dangarembga"
+   },
+   {
+    "title": "Harare North",
+    "author": "Brian Chikwava"
+   },
+   {
+    "title": "The Hairdresser of Harare",
+    "author": "Tendai Huchu"
+   }
+  ]
+ }
+]

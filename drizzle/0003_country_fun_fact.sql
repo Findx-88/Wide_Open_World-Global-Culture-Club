@@ -1,0 +1,1 @@
+ALTER TABLE `countries` ADD `fun_fact` text;
