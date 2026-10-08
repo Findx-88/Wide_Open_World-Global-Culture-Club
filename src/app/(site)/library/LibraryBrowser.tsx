@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useDeferredValue, useMemo, useState } from 'react';
 import { Cover } from '@/components/Cover';
+import { continentColor } from '@/lib/world';
 import { flagUrl } from '@/lib/format';
 
 export type LibraryBook = {
@@ -64,7 +65,7 @@ export function LibraryBrowser({ books }: { books: LibraryBook[] }) {
               {list.map((b) => {
                 const body = (
                   <>
-                    <Cover work={{ ...b, kind: 'book' }} className="w-full" />
+                    <div style={{ ['--accent' as string]: continentColor(b.continent) }}><Cover work={{ ...b, kind: 'book' }} className="w-full" /></div>
                     <div className="mt-3 font-display text-lg leading-tight">{b.title}</div>
                     <div className="text-sm text-ink-soft">{b.creator}</div>
                     {b.expeditionSlug && <div className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-accent">WOW expedition pick</div>}
