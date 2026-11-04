@@ -115,6 +115,15 @@ const EXPEDITIONS = [
     heroCaption: 'Built in 1395, the "Palace Greatly Blessed by Heaven" was the main royal palace of the Joseon dynasty — a symbol of Korean sovereignty and cultural continuity across six centuries.',
     heroCredit: 'Wide Open World Travel Archive (Seoul, South Korea)', accentColor: '#D2474E', pattern: 'lattice',
   },
+  {
+    slug: 'china', number: 3, country: 'cn', startsOn: '2026-11-01', endsOn: '2026-12-27',
+    tagline: 'The Middle Kingdom',
+    description:
+      "A two-month journey into the Middle Kingdom. Through Cixin Liu's mind-bending science fiction epic and three landmark films — from heartbreaking history to kung fu comedy — we explore the sweep of modern Chinese storytelling, imagination and memory.",
+    heroImageUrl: '/china_hero.jpg', heroTitle: 'The Forbidden City',
+    heroCaption: 'For almost 500 years, this imperial palace in the heart of Beijing was home to twenty-four emperors. Its red walls, golden glazed roofs and moat-side watchtowers — built in 1420 — are an enduring symbol of Chinese civilisation.',
+    heroCredit: 'Daniel Case, Wikimedia Commons (CC BY-SA 3.0) — Northwest corner tower, Forbidden City, Beijing', accentColor: '#D4A017', pattern: 'diamonds',
+  },
 ];
 
 const EXPEDITION_WORKS: Record<string, (WorkSeed & { role: 'primary' | 'additional'; category?: string; why?: string; quote?: string })[]> = {
@@ -157,6 +166,19 @@ const EXPEDITION_WORKS: Record<string, (WorkSeed & { role: 'primary' | 'addition
     { kind: 'film', role: 'additional', category: 'Contemporary', title: 'No Other Choice', creator: 'Park Chan-wook', year: 2025, country: 'kr', genre: 'Black comedy thriller',
       description: 'After decades at a paper company, a laid-off family man decides the only way back into work is to eliminate the competition. A darkly funny, unsettling portrait of modern precarity.' },
   ],
+  china: [
+    { kind: 'book', role: 'primary', title: 'The Three-Body Problem', creator: 'Cixin Liu', year: 2008, length: 400, genre: 'Science Fiction', country: 'cn',
+      description: "Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space — and receives an answer. The first book of the Remembrance of Earth's Past trilogy, and the novel that brought Chinese science fiction to the world.",
+      awards: ['Hugo Award for Best Novel (2015)'] },
+    { kind: 'film', role: 'primary', category: 'Historical & Political', title: 'To Live', creator: 'Zhang Yimou', year: 1994, length: 132, country: 'cn', genre: 'Drama',
+      description: "Following one family from the 1940s through the Cultural Revolution, a gambler-turned-puppeteer and his wife endure the upheavals of modern Chinese history with humour, grief and stubborn hope.",
+      awards: ['Grand Prix of the Jury, Cannes (1994)'] },
+    { kind: 'film', role: 'additional', category: 'Historical & Political', title: 'Farewell My Concubine', creator: 'Chen Kaige', year: 1993, length: 171, country: 'cn', genre: 'Historical drama',
+      description: 'Two Peking opera performers — and the woman who comes between them — are bound together across half a century of war and revolution. A sweeping, tragic epic about art, loyalty and identity.',
+      awards: ['Palme d’Or, Cannes (1993)'] },
+    { kind: 'film', role: 'additional', category: 'Martial Arts & Comedy', title: "Snake in the Eagle's Shadow", creator: 'Yuen Woo-ping', year: 1978, length: 101, country: 'cn', genre: 'Martial arts comedy',
+      description: "A bullied kung fu student learns a secret snake-fist style from an old master and must face the Eagle's Claw clan. The playful classic that made Jackie Chan a star." },
+  ],
 };
 
 const FRIENDS = [
@@ -166,6 +188,8 @@ const FRIENDS = [
   { slug: 'hana-jo', expedition: 'south-korea', name: 'Hana Jo', title: 'Friend from South Korea', location: 'Seoul, South Korea', country: 'kr',
     bio: 'Korean cultural guide and literary advocate for the WOW South Korea expedition.',
     quote: "Pachinko tells the story we don't talk about enough — the Koreans who built lives in Japan, caught between two worlds. It is a book about us, and about everyone who has ever had to choose between roots and survival." },
+  { slug: 'xiaoqiang-meng', expedition: 'china', name: 'Xiaoqiang Meng (Alex)', title: 'Friend from China', location: 'China', country: 'cn',
+    bio: 'Chinese cultural guide for the WOW China expedition.', quote: null as string | null },
 ];
 
 const EVENTS = [
@@ -177,6 +201,9 @@ const EVENTS = [
     description: "Hana Jo introduces South Korea's modern history and cultural context, and guides our dive into Pachinko and the films." },
   { expedition: 'south-korea', title: 'Meeting 2 · Discussion & Q&A', startsAt: '2026-10-25T12:00:00.000Z',
     description: 'Group discussion on Pachinko and the films — identity, sacrifice, resilience, and belonging — with a live Q&A with Hana Jo.' },
+  // China Meeting 1 (launch) has no date yet — add it in /admin once scheduled.
+  { expedition: 'china', title: 'Meeting 2 · Discussion & Q&A', startsAt: '2026-12-27T12:00:00.000Z',
+    description: 'Group discussion on The Three-Body Problem and the films, with a live Q&A with Xiaoqiang Meng (Alex).' },
 ];
 
 async function seedExpeditions() {
